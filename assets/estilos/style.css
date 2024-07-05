@@ -1,0 +1,79 @@
+/* Estilos personalizados */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFD1DC; /* Color rosa pastel */
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-container {
+    max-width: 60%;
+    max-height: 100%;
+    overflow: hidden;
+    margin: 20px auto;
+    border-radius: 40px;
+}
+
+.carousel-item {
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+   
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 24px; /* Ajusta el tamaño de los íconos si es necesario */
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .carousel-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-container {
+        width: 100%;
+    }
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    line-height: inherit;
+    font-family: math;
+}
+
+img {
+    border-style: hidden;
+}
